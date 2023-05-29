@@ -31,8 +31,6 @@ const CardWeather = ({lat, lon}) => {
 
  }, [lat, lon])
 
- console.log(weather)
-
  const handleClick = () => setIsCelsius (!isCelsius)
 
  if (isLoading) {

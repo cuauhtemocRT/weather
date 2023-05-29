@@ -27,7 +27,6 @@ function App() {
 
   return (
     <div className="App">
-    {/* Props para enviar información */}
       <CardWeather lon={coords?.lon} lat={coords?.lat} />
     </div>
   )
